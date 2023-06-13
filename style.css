@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Lato:wght@700&family=Raleway:ital,wght@0,300;1,300&family=Roboto+Condensed:ital@0;1&display=swap');
+*{
+    margin:0;
+    padding:0;
+}
+.nav-link{
+    background-color: antiquewhite;
+    text-decoration:none;
+}
+.nav-link{
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 30px 10%;
+list-style: none;
+text-decoration: double;
+}
+.nav-link:hover{
+    color:black;
+}
+li a{
+    text-decoration: none;
+}
+body{
+    background-color: rgb(41, 6, 74) ;
+    font-family: 'Kanit', sans-serif;
+}
+.main{
+    background-color:black;
+    color: rgb(255,255,255);
+    text-align: center;
+    border-radius: 70px;
+    padding: 70px;
+    margin:50px;
+}
+.content img{
+    width: 200px;
+    height: 200px;
+    border-radius:50%;
+    object-fit: cover;
+    object-position:0 -8;
+}
+.row1 img{
+    width: 500px;
+    height:300px;
+    padding:70px;
+}
+p{
+    font-size: larger;
+    color: white;
+    padding:30px;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:100px;
+}
+footer{
+    background-color: antiquewhite;
+    color: rgb(41, 6, 74) ;
+    justify-content: space-between;
+}
+hr{
+    opacity:0.7;
+}
+.col p{
+    color: rgb(41, 6, 74);
+}
+ 
